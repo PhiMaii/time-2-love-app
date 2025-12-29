@@ -21,7 +21,11 @@ export default function TabLayout() {
         options={{
           title: "Devices",
           tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="heart.fill" color={color} />
+            <IconSymbol
+              size={28}
+              name="point.3.filled.connected.trianglepath.dotted"
+              color={color}
+            />
           ),
         }}
       />
@@ -30,11 +34,7 @@ export default function TabLayout() {
         options={{
           title: "Heartbeats",
           tabBarIcon: ({ color }) => (
-            <IconSymbol
-              size={28}
-              name="point.3.filled.connected.trianglepath.dotted"
-              color={color}
-            />
+            <IconSymbol size={28} name="heart.fill" color={color} />
           ),
         }}
       />

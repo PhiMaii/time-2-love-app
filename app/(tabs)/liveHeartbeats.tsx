@@ -15,7 +15,7 @@ export default function HomeScreen() {
   const clientRef = useRef<MqttClient | null>(null);
 
   const PAIR_ID = "42";
-  const MQTT_WS_URL = "ws://192.168.1.120:9001";
+  const MQTT_WS_URL = "ws://192.168.178.151:9001";
   const BLINK_TOPIC = `time2love/pair/${PAIR_ID}/blink`;
 
   function connectMQTT() {
